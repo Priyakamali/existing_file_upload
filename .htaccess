@@ -1,0 +1,11 @@
+
+# BEGIN cPanel-generated php ini directives, do not edit
+RewriteEngine On
+
+<IfModule php7_module>
+ php_value max_input_vars 2000
+</IfModule>
+<IfModule lsapi_module>
+  php_value max_input_vars 2000
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
